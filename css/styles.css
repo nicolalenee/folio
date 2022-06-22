@@ -1,7 +1,15 @@
+:root {
+  --purple: #e5b0fa;
+  --light-pink: #ffcce1;
+  --pink: #ff95da;
+}
 * {
   margin: 0;
   padding: 0;
   font-size: 16px;
+}
+main {
+  text-align: center;
 }
 header {
   display: flex;
@@ -9,7 +17,7 @@ header {
   align-items: center;
   background-color: #e5b0fa;
   background-image: url("../assets/logo-\ header.png");
-  height: 600px;
+  height: 900px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -24,4 +32,40 @@ header {
   font-size: 2rem;
   font-style: italic;
   font-family: 'Fredoka', sans-serif;
+}
+nav {
+  background-color: var(--pink);
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+li {
+  margin: 1rem 2rem;
+  font-family: 'Fredoka', sans-serif;
+}
+li a { 
+  font-size: 2rem;
+  color: white;
+}
+li a:hover {
+  color: var(--purple);
+  transition: color 0.3s ease-in 0.2s;
+}
+
+.about-section {
+  display: flex;
+  background-color: #FEB8D9;
+  height: 500px;
+  font-family: 'Fredoka', sans-serif;
+  color: #494949;
+  padding: 30px;
+}
+
+.about-title {
+  font-size: 2rem;
+}
+.about-description {
+  font-size: 1.2rem;
 }
