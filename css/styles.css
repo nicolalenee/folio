@@ -105,10 +105,79 @@ li a:hover {
 }
 .projects-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: var(--purple);
   height: 600px;
   font-family: 'Fredoka', sans-serif;
   color: #494949;
-  padding: 50px;
+  margin-bottom: 5px;
+}
+.divider-wrapper {
+  margin-top: 25px;
+  margin-bottom:15px;
+}
+.projects-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.project-card {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  flex: 1 1 0px; 
+  border-radius: 5px;
+  max-width: 300px;
+  min-width: 300px;
+  flex-wrap: wrap;
+}
+
+.card-image {
+  margin-right: 10px;
+}
+.card-title {
+  color: var(--light-pink);
+  margin-bottom: 2px;
+}
+.card-title h2 {
+  font-size: 1.5rem;
+}
+.card-content p {
+  font-size: 1.2rem;
+}
+.technologies p {
+  color: white;
+  font-weight: bold;
+}
+.contact-footer {
+background-color: white;
+height: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+.contact-footer .title {
+  font-size: 6rem;
+  color: var(--purple);
+  text-shadow: 0 0 3px pink;
+  font-family: 'Fredoka', sans-serif;
+}
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+
+}
+.contact-icon {
+  height: 100px;
 }
