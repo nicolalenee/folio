@@ -140,6 +140,24 @@ li a:hover {
 .card-image {
   margin-right: 10px;
 }
+@keyframes pulse {
+  0%,
+  100% {
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: scale(1.0);
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+.pulse:hover {
+  transform: scale(1.23);
+}
+
 .card-title {
   color: var(--light-pink);
   margin-bottom: 2px;
@@ -201,5 +219,4 @@ margin-bottom: 20px;
 .contact-details a:hover {
   box-shadow: inset 270px 0 0 0 var(--purple);
   color: white;
-
 }
