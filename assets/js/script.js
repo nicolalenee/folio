@@ -8,7 +8,14 @@ $(document).on('click','.modal-button', function(){
   return false;
 });
 
-$("body" ).on( "click",".close", function() {
+$("body").on( "click",".close", function() {
   	$('#modal').fadeOut();
 	$('.modal-content').hide();
 });
+
+window.onclick = function(event) {
+	var modal = document.getElementById("modal");
+	if (event.target == modal) {
+		$("#modal").fadeOut();
+	}
+}
