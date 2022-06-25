@@ -55,7 +55,7 @@
 
           <div class="card-content">
             <div class="card-image pulse">
-              <a href="http://nicola-tech-blog.herokuapp.com"><img src="./assets/fairy.png" class="project-icon" height="126" width="84"/></a>
+              <button id="modal-button"><img src="./assets/fairy.png" class="project-icon" height="126" width="84"/></button>
             </div>
 
             <div class="card-title">
@@ -68,7 +68,6 @@
           </div>
         </div>
         <!--end of card-->
-
         <!--card #2-->
         <div class="project-card">
 
@@ -147,6 +146,32 @@
       </div>
 
     </section>
+    <!--modal element-->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <!--dynamically generate this content-->
+        <div class="modal-body">
+          <div class="modal-left">
+            <!--dynamic image of app here-->
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <!--dynamic-->
+            </div>
+            <div class="modal-description">
+              <!--dynamic p element of description-->
+              <!--dynamic p element of technologies-->
+            </div>
+            <div class="modal-info">
+              <!--dynamic links to repo and deployment-->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end modal-->
   </main>
 
   <footer id="contact" class="contact-footer">
@@ -184,6 +209,7 @@
       <p>© 2022 Nicola Marble</p>
     </div>
   </footer>
-  
+  <script src="./js/script.js"></script>
+  <script src="./js/projects.js"></script>
 </body>
 </html>
