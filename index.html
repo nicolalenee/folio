@@ -55,7 +55,9 @@
 
           <div class="card-content">
             <div class="card-image pulse">
-              <button id="modal-button"><img src="./assets/fairy.png" class="project-icon" height="126" width="84"/></button>
+              <a href="#one" class="modal-button">
+                <img src="./assets/fairy.png" class="project-icon" height="126" width="84"/>
+              </a>
             </div>
 
             <div class="card-title">
@@ -73,7 +75,9 @@
 
           <div class="card-content">
             <div class="card-image pulse">
-              <img src="./assets/revitalizing.png" class="project-icon" height="126" width="84"/>
+              <a href="#two" class="modal-button">
+                <img src="./assets/revitalizing.png" class="project-icon" height="126" width="84"/>
+              </a>
             </div>
 
             <div class="card-title">
@@ -92,7 +96,9 @@
 
           <div class="card-content">
             <div class="card-image pulse">
-              <img src="./assets/sacred.png" class="project-icon" height="126" width="84"/>
+              <a href="#three" class="modal-button">
+                <img src="./assets/sacred.png" class="project-icon" height="126" width="84"/>
+              </a>
             </div>
 
             <div class="card-title">
@@ -111,7 +117,9 @@
 
           <div class="card-content">
             <div class="card-image pulse">
-              <img src="./assets/spores.png" class="project-icon" height="126" width="84"/>
+              <a href="#four" class="modal-button">
+                <img src="./assets/spores.png" class="project-icon" height="126" width="84"/>
+              </a>
             </div>
 
             <div class="card-title">
@@ -130,7 +138,9 @@
 
           <div class="card-content">
             <div class="card-image pulse">
-              <img src="./assets/stamina.png" class="project-icon" height="126" width="84"/>
+              <a href="#five" class="modal-button">
+                <img src="./assets/stamina.png" class="project-icon" height="126" width="84"/>
+              </a>
             </div>
 
             <div class="card-title">
@@ -146,32 +156,144 @@
       </div>
 
     </section>
-    <!--modal element-->
+    <!--modal elements-->
     <div id="modal" class="modal">
-      <div class="modal-content">
+      <!--project #1 modal-->
+      <div class="modal-content" id="one">
         <span class="close">&times;</span>
-        <!--dynamically generate this content-->
         <div class="modal-body">
           <div class="modal-left">
-            <!--dynamic image of app here-->
+        
+            <img src="./assets/tech-blog.png" alt="Tech Blog" class="modal-image">
           </div>
           <div class="modal-right">
             <div class="modal-header">
-              <!--dynamic-->
+              <h3 class="title">Tech Blog</h3>
             </div>
             <div class="modal-description">
-              <!--dynamic p element of description-->
-              <!--dynamic p element of technologies-->
+              <p class="modal-text">
+                A web application that allows users to sign up , login, and create posts and comments for tech related news
+              <p class="modal-text">JavaScript, Express, Node.Js, MongdoDB
             </div>
             <div class="modal-info">
-              <!--dynamic links to repo and deployment-->
+              <button class="deployment-button"><a href="http://nicola-tech-blog.herokuapp.com/">View Website</a></button>
+              <a href="https://github.com/nicolalenee/tech-blog">View Repository</a>
             </div>
 
           </div>
         </div>
       </div>
+      <!--end modal-->
+
+      <!--project #2 modal-->
+      <div class="modal-content" id="two">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <div class="modal-left">
+        
+            <img src="./assets/pizzahunt.png" alt="Pizza Hunt" class="modal-image">
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h3 class="title">PizzaHunt</h3>
+            </div>
+            <div class="modal-description">
+              <p class="modal-text">
+                A blogging site to track the best pizzas , pizza locations, and pizza opinions.
+              <p class="modal-text">JavaScript, Express, Node.Js, MongdoDB
+            </div>
+            <div class="modal-info">
+              <button class="deployment-button"><a href="https://colapizzahunt.herokuapp.com/">View Website</a></button>
+              <a href="https://github.com/nicolalenee/PizzaHunt">View Repository</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!--end modal-->
+
+      <!--project #3 modal-->
+      <div class="modal-content" id="three">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <div class="modal-left">
+        
+            <img src="./assets/zookeepr.png" alt="Zookeepr" class="modal-image">
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h3 class="title">Zookeepr</h3>
+            </div>
+            <div class="modal-description">
+              <p class="modal-text">
+                A web application that allows users to manage their zoo animals, zookeepers, and all of the interesting things that come along with them!
+              <p class="modal-text">HTML, CSS, JavaScript, REST API, Express.js
+            </div>
+            <div class="modal-info">
+              <button class="deployment-button"><a href="https://cola-zookeepr.herokuapp.com/">View Website</a></button>
+              <a href="https://github.com/nicolalenee/zookeepr">View Repository</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!--end modal-->
+
+      <!--project #4 modal-->
+      <div class="modal-content" id="four">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <div class="modal-left">
+        
+            <img src="./assets/duty-docket.png" alt="Duty Docket" class="modal-image">
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h3 class="title">Zookeepr</h3>
+            </div>
+            <div class="modal-description">
+              <p class="modal-text">
+                A single-page application that allows parents to create, edit, and assign tasks for their household! <i>This was a group project that was worked on in collaboration with Kelly Dingman, Thomas Sifferman, and Corey Gettig.</i>
+              <p class="modal-text"> Node.js, GraphQL, MongoDB, REACT, Express, Cirrus-UI</p>
+            </div>
+            <div class="modal-info">
+              <button class="deployment-button"><a href="https://dutydocket.herokuapp.com/">View Website</a></button>
+              <a href="https://github.com/coreygettig7/duty-docket">View Repository</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!--end modal-->
+
+      <!--project #4 modal-->
+      <div class="modal-content" id="five">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <div class="modal-left">
+        
+            <img src="./assets/note-taker.png" alt="Note Taker" class="modal-image">
+          </div>
+          <div class="modal-right">
+            <div class="modal-header">
+              <h3 class="title">Note Taker</h3>
+            </div>
+            <div class="modal-description">
+              <p class="modal-text">
+                A simple web application that allows users to easily take quick notes.
+              <p class="modal-text"> Node.js, Express</p>
+            </div>
+            <div class="modal-info">
+              <button class="deployment-button"><a href="https://nicola-notetaker.herokuapp.com/">View Website</a></button>
+              <a href="https://github.com/nicolalenee/note-taker">View Repository</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!--end modal-->
     </div>
-    <!--end modal-->
+    
   </main>
 
   <footer id="contact" class="contact-footer">
@@ -209,7 +331,12 @@
       <p>© 2022 Nicola Marble</p>
     </div>
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
   <script src="./js/script.js"></script>
   <script src="./js/projects.js"></script>
+  
 </body>
 </html>

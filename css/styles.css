@@ -223,7 +223,7 @@ margin-bottom: 20px;
   box-shadow: inset 270px 0 0 0 var(--purple);
   color: white;
 }
-#modal-button {
+.modal-button {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -245,6 +245,10 @@ margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+}
+.modal-image {
+  width: 200px;
+  height: 200px;
 }
 .close {
   color: #aaa;
