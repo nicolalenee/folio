@@ -27,7 +27,6 @@ header {
   margin-top: 10rem;
   text-align: center;
   color: white;
-  position:relative;
   opacity: 40%;
 }
 .info {
@@ -39,10 +38,10 @@ nav {
   background-color: #FEB8D9;
   margin-bottom: 10px;
   z-index: 9999;
-  position:fixed;
   width: 100%;
   top: 0px;
-  left: 0px
+  left: 0px;
+  position: absolute;
 }
 ul {
   display: flex;
@@ -112,6 +111,7 @@ li a:hover {
   font-family: 'Fredoka', sans-serif;
   color: #494949;
   margin-bottom: 5px;
+  margin-top: 80px;
 }
 .divider-wrapper {
   margin-top: 25px;
@@ -121,6 +121,7 @@ li a:hover {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .project-card {
   justify-content: center;
